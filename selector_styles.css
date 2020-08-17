@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Roboto;
+  src: url('Roboto.ttf');
+}
+
+@font-face {
+  font-family: Prociono;
+  src: url('Prociono.otf');
+}
+
+h1 {
+	font-family: Roboto, sans-serif;
+}
+
+h3 {
+	font-family: Prociono, serif;
+}
+
+article em {
+	background-color: orange;
+}
+
+.main_nav ul {
+	color: aqua;
+}
+
+.main_nav ul ul {
+	color: initial;
+}
+
+article p {
+	color: aquamarine;
+}
+
+[title="textsnutt"] {
+	color: blueviolet;
+}
+
+[title="viktig paragraf"], [title="mycket viktig text"]{
+	background-color: #FF3300;
+}
+
+#zebra li:nth-child(odd) {
+	background-color: #99ccff;
+}
+
+#zebra:last-child {
+	border-bottom: 2px pink solid;
+}
+
+table tr:nth-child(3n) {
+	background-color: #FFFF99;
+}
+
+table tr:nth-child(odd) {
+	background-color: #CCFF66;
+}
